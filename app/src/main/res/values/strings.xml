@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeChat</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_verification_code">VerificationCodeActivity</string>
+    <string name="first_phone_no">010</string>
+
+</resources>
