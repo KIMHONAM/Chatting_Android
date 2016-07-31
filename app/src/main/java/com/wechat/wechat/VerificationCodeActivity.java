@@ -82,6 +82,7 @@ public class VerificationCodeActivity extends AppCompatActivity {
 
                 System.out.println("telNo : "+telNo);
                 Log.i("telNo",telNo);
+                Log.i("gitTest", telNo);
 
             }
         });
