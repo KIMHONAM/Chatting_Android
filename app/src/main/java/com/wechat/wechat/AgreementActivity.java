@@ -22,7 +22,7 @@ public class AgreementActivity extends AppCompatActivity {
             box.setOnClickListener(new View.OnClickListener(){
                 public void onClick(View view){
                    if(box.isChecked()){
-                        b1.setClickable(true);
+                       b1.setClickable(true);
                        b1.setTextColor(Color.parseColor("#ff000000"));
                        b1.setOnClickListener(new View.OnClickListener() {
                            public void onClick(View view) {

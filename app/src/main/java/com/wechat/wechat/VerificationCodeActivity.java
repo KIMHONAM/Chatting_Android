@@ -67,14 +67,14 @@ public class VerificationCodeActivity extends AppCompatActivity {
                     con.setDoInput(true);
                     con.setDoOutput(true);
                     con.setRequestMethod("GET");
-                    con.connect();
-                    Log.i("Status",con.getResponseMessage());
-                    //con.disconnect();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }finally {
-                    try{
-                        if(con!=null) con.disconnect();
+                        con.connect();
+                        Log.i("Status",con.getResponseMessage());
+                        //con.disconnect();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }finally {
+                        try{
+                            if(con!=null) con.disconnect();
                     }catch (Exception e){
                         e.printStackTrace();
                     }
